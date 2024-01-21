@@ -47,15 +47,15 @@ In the example above, we are trying to fetch some country from URL and then we m
 
 When you open you browser with URL: `http://127.0.0.1:5173/?country=cyprus`, you will get following:
 
-<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/cyprus.png?sanitize=true">
+<img width="500px" src="https://github.com/Guseyn/react-json-template/blob/main/cyprus.png?raw=true">
 
 Or let's say when you open `http://127.0.0.1:5173/?country=poland`, you will see:
 
-<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/poland.png?sanitize=true">
+<img width="500px" src="https://github.com/Guseyn/react-json-template/blob/main/poland.png?raw=true">
 
 If you open non-existing country like `http://127.0.0.1:5173/?country=non-existing`, you will see:
 
-<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/404png?sanitize=true">
+<img width="500px" src="https://github.com/Guseyn/react-json-template/blob/main/404.png?raw=true">
 
 This is how `ReactJSONTemplate` [is implemented](lib/ReactJSONTemplate.tsx).
 
