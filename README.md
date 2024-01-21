@@ -2,7 +2,7 @@
 
 This is my little gift to React Community. It's inspired by [EHTML](https://e-html.org). More specifically, by `<template is="e-json">`.
 
-# How it Works
+# How It Works
 
 `ReactJSONTemplate` component fetches JSON object from some URL, which you specify in `src` attribute and allow you to map the response to some template you specify in `template` attribute. You can also specify `fallback` template.
 
@@ -59,7 +59,7 @@ If you open non-existing country like `http://127.0.0.1:5173/?country=non-existi
 
 This is how `ReactJSONTemplate` [is implemented](lib/ReactJSONTemplate.tsx).
 
-# How to examples
+# How to Run Examples
 
 After you clone this project, execute following commands:
 
