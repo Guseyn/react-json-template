@@ -7,6 +7,7 @@ function App() {
     <div>
       <ReactJSONTemplate
         src={`https://restcountries.com/v3.1/name/${country}`}
+        headers={{}}
         fallback={() => {
           return <div>Loading...</div>
         }}
