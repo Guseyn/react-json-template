@@ -1,6 +1,6 @@
 # React JSON Template
 
-This is my little gift to React Community. It's inspired by [EHTML](https://e-html.org). More specifically, by `<template is="e-jdon">`.
+This is my little gift to React Community. It's inspired by [EHTML](https://e-html.org). More specifically, by `<template is="e-json">`.
 
 # How it Works
 
@@ -47,15 +47,15 @@ In the example above, we are trying to fetch some country from URL and then we m
 
 When you open you browser with URL: `http://127.0.0.1:5173/?country=cyprus`, you will get following:
 
-<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/image/Screenshot%202024-01-21%20at%207.13.11%20PM.png?sanitize=true">
+<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/cyprus.png?sanitize=true">
 
 Or let's say when you open `http://127.0.0.1:5173/?country=poland`, you will see:
 
-<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/image/Screenshot%202024-01-21%20at%207.13.28%20PM.png?sanitize=true">
+<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/poland.png?sanitize=true">
 
 If you open non-existing country like `http://127.0.0.1:5173/?country=non-existing`, you will see:
 
-<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/image/Screenshot%202024-01-21%20at%207.23.42%20PM.png?sanitize=true">
+<img width="500px" src="https://raw.githubusercontent.com/Guseyn/react-json-template/main/404png?sanitize=true">
 
 This is how `ReactJSONTemplate` [is implemented](lib/ReactJSONTemplate.tsx).
 
