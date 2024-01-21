@@ -68,4 +68,4 @@ npm i
 npm run dev
 ```
 
-Then open page: (http://127.0.0.1:5173/)[http://127.0.0.1:5173/].
+Then open page: http://127.0.0.1:5173/.
